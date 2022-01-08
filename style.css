@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+  background-image: url(Img/background.jpg);
+  background-size: cover;
+  background-color: white;
+  }
+
+.container{
+  width: 62%;
+  height: 80%;
+  background: rgb(0,0,0,0.5);
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 2%;
+  padding: 5%;
+}
+
+header{
+  text-align: center;
+  font-size: 12px;
+}
+
+header > h1{
+  color: limegreen;
+  margin-bottom: 5px;
+}
+
+#logo{
+  height: 80px;
+}
+
+#barra_prenotazioni{
+  background: #32EE32;
+  padding: 7px;
+}
+
+#barra_prenotazioni > button{
+  font-size: 10px;
+}
+
+.utente{
+  margin-top: 2%;
+  color: white;
+  font-size: 11px;
+}
+
+.nome_utente, .info_utente{
+  margin-bottom: 4px;
+  display: block;
+}
+
+.quadratino_bianco{
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #FAF0E6;
+  margin-bottom: 0;
+}
+
+.barra{
+  height: 25px;
+  border-radius: 5px;
+}
+
+.barra.arancio{
+  background: #FFBE46;
+  width: 35%;
+}
+
+.barra.verde{
+  background: #32CD32;
+  width: 60%;
+}
+
+.barra.rossa{
+  background: #CD5C5C;
+  width: 14%;
+}
